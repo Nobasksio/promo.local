@@ -1,0 +1,61 @@
+.main_bg{
+    background-image: url("/src/fon.jpg");
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-width: 800px) and (max-width: 850px) {
+    .main_bg {
+        height: 600px;
+    }
+}
+
+@media (min-width: 850px) {
+    .main_bg {
+        height: 600px;
+    }
+}
+
+.left_icon{
+    max-width: 10px;
+}
+.icon50{
+    max-width: 20px;
+}
+
+.minus_margin{
+    margin-top: -40px;
+}
+.img_gift{
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 720px) {
+    .img100{
+        max-width: 100%;
+        height: auto;
+    }
+    .main_bg{
+        background-image: none;
+
+    }
+    .imgM{
+        max-width: 80%;
+        height: auto;
+    }
+}
+.bg-people{
+    background-image: url("/src/people2.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+.bg-people:after{
+    display: block;
+    background: aqua;
+    height: 100%;
+    width: 5000px;
+}
