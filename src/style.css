@@ -1,3 +1,39 @@
+@font-face {
+    font-family: 'TT Norms Black';
+    src: url('TTNorms-Black.eot');
+    src: url('TTNorms-Black.eot?#iefix') format('embedded-opentype'),
+    url('TTNorms-Black.woff') format('woff'),
+    url('TTNorms-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Norms Regular';
+    src: url('TTNorms-Regular.eot');
+    src: url('TTNorms-Regular.eot?#iefix') format('embedded-opentype'),
+    url('TTNorms-Regular.woff') format('woff'),
+    url('TTNorms-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'TT Norms Bold';
+    src: url('TTNorms-Bold.eot');
+    src: url('TTNorms-Bold.eot?#iefix') format('embedded-opentype'),
+    url('TTNorms-Bold.woff') format('woff'),
+    url('TTNorms-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body{
+    font-family: 'TT Norms Regular';
+}
 .main_bg{
     background-image: url("/src/fon.jpg");
     height: 100%;
@@ -23,14 +59,25 @@
     max-width: 10px;
 }
 .icon50{
-    max-width: 20px;
+    max-width: 25px;
 }
 
 .minus_margin{
-    margin-top: -40px;
+    margin-bottom: -65px;
+    position: relative;
+    z-index: 444;
+}
+.gift-container{
+    padding-top: 80px;
+    position: relative;
+    z-index: 0;
 }
 .img_gift{
-    max-width: 100%;
+    width: 100%;
+
+}
+.imgM{
+    max-width: 380px;
     height: auto;
 }
 @media (max-width: 720px) {
@@ -58,4 +105,60 @@
     background: aqua;
     height: 100%;
     width: 5000px;
+}
+
+.rounded_radius30{
+    border-radius: 30px;
+}
+.max-1200{
+    max-width: 1200px;
+}
+.price{
+    font-size: 26px;
+    line-height: 26px;
+}
+.font14{
+    font-size: 14px;
+}
+.font16{
+    font-size: 16px;
+}
+.font20{
+    font-size: 20px;
+}
+.font8{
+    font-size: 10px;
+}
+.font12{
+    font-size: 12px;
+}
+.bg-my-gray{
+    background: #3a3937;
+}
+.stiker{
+    font-family: TT Norms Black;
+    width: 20px;
+    height: 20px;
+    margin-top: -50px;
+    margin-left: 35px;
+    font-size: 12px;
+    position: relative;
+    z-index: 32;
+    padding-top: 2px;
+}
+.boldf{
+    font-family: TT Norms Bold;
+}
+.code_input{
+    width: 40px;
+    height: 70px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 7px;
+}
+.dotted{
+    border-bottom: dotted 2px #3a3937;
+}
+.btn-phone{
+    min-width: 170px;
 }
