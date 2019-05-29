@@ -94,18 +94,15 @@ body{
         height: auto;
     }
 }
-.bg-people{
-    background-image: url("/src/people2.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 100% ;
+@media (min-width: 960px) {
+    .bg-people {
+        background-image: url("/src/people2.jpg");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
 }
-.bg-people:after{
-    display: block;
-    background: aqua;
-    height: 100%;
-    width: 5000px;
-}
+
 
 .rounded_radius30{
     border-radius: 30px;
